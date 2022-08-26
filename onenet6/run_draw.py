@@ -1,7 +1,10 @@
 import turtle
 
 t = turtle.Pen()
+s = turtle.Screen()
+s.bgpic("c.gif")
 t.pensize(3)
+t.pencolor("white")
 
 t.back(50)
 t.right(90)
